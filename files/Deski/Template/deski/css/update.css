@@ -1,5 +1,30 @@
+.mbl-view {
+  display: none !important;
+}
 @media (max-width: 768px) {
   .hero-banner-ten {
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .desk-view {
+    display: none !important;
+  }
+
+  .signIn-action img {
+    margin-right: 10px;
+  }
+  .signIn-action span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 46px;
+    color: #000;
+  }
+  .mbl-view {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    justify-content: space-around;
+    color: black;
+    padding-bottom: 10px;
   }
 }
